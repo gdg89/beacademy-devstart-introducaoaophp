@@ -1,8 +1,8 @@
 <table border="1" width = "500">
     <thead>
         <tr>
-            <td>Bandas</td>
-            <td>Musicas</td>
+            <th>Bandas</th>
+            <th>Musicas</th>
         </tr>
     </thead>
     <tbody>
