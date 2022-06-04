@@ -3,15 +3,19 @@
 $url = $_SERVER['REQUEST_URI'];//Pega url que usuario accesou
 include 'telas/head.php';
 include 'telas/menu.php';
+include 'acoes.php';
 
 if ($url === '/'){//compara se o que o cliente accesou a gente tem mapeado na plataforma.
-    include 'telas/home.php';
+   home();
 }elseif($url === '/login'){
-    include 'telas/login.php';
+    login();
 }elseif($url === '/cadastro'){
-   include 'telas/cadastro.php';
+   cadastro();
+}elseif($url === '/listar'){
+   listar();
+
 }else{
-    include 'telas/404.php';
+   erro404();
 }
 
 include 'telas/footer.php';

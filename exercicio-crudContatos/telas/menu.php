@@ -8,7 +8,8 @@
                         <li class="nav-item"><a href="/" class=" nav-link link-warning">Inicio</a></li>
                         <li class="nav-item"><a href="/login" class="nav-link link-warning">Login</a></li>
                         <li class="nav-item"><a href="/cadastro" class="nav-link link-warning">Cadastro</a></li>
-                        <li class="nav-item"><a href="/admin" class="nav-link link-warning">Admin</a></li>
+                        <li class="nav-item"><a href="/listar" class="nav-link link-warning">Contatos</a></li>
+                        <li class="nav-item"><a href="/404" class="nav-link link-warning">Admin</a></li>
                     </ul>
                 </div>
                
