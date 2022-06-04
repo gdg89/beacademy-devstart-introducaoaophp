@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container">
-        <header class="bg-dark text-bg-danger mt-2 p-3">
+        <header class="bg-dark mt-2 p-3">
             
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
